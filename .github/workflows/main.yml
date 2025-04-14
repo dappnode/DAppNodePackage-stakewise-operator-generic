@@ -17,6 +17,14 @@ jobs:
       - uses: actions/checkout@v4
       - run: npx @dappnode/dappnodesdk build --skip_save --all-variants
 
+  build-test-hash:
+    runs-on: ubuntu-latest
+    name: Build hash
+    if: github.event_name != 'push'
+    steps:
+      - uses: actions/checkout@v4
+      - run: npx @dappnode/dappnodesdk build --skip_save --variant mainnet --provider remote
+
   release:
     name: Release
     runs-on: ubuntu-latest
