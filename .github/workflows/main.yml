@@ -23,7 +23,7 @@ jobs:
     if: github.event_name != 'push'
     steps:
       - uses: actions/checkout@v4
-      - run: npx @dappnode/dappnodesdk build --variant mainnet
+      - run: npx @dappnode/dappnodesdk build --variant mainnet --provider remote
 
   release:
     name: Release
