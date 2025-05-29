@@ -2,7 +2,7 @@
   "upstream": [
     {
       "repo": "stakewise/v3-operator",
-      "version": "v3.1.1",
+      "version": "v3.1.7",
       "arg": "UPSTREAM_VERSION"
     },
     {
