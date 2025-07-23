@@ -29,6 +29,8 @@ Welcome to the StakeWise Operator Package for DAppNode! This comprehensive guide
    - For enhanced security, remove the mnemonic volume associated with your StakeWise Operator package. This can be done in this tab.
    - **Remove only** the volume labeled as **"mnemonic"**.
 
+8. **Fund registrant address:** Ensure the wallet located at `/data/stakewise/<vault_address>` has sufficient funds to cover gas fees required for registering new validators.
+
 **Congratulations!** You are now set to operate your StakeWise vault on Dappnode.
 
 ## **Add more validators to your current operator:**
