@@ -1,0 +1,10 @@
+{
+  "name": "stakewise-operator-hoodi.dnp.dappnode.eth",
+  "version": "0.1.0",
+  "globalEnvs": [
+    {
+      "envs": ["CONSENSUS_CLIENT_HOODI", "EXECUTION_CLIENT_HOODI"],
+      "services": ["operator"]
+    }
+  ]
+}
