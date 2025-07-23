@@ -20,7 +20,7 @@ load_envs() {
     load_env_and_store_to_file "VAULT_CONTRACT_ADDRESS" "$VAULT_CONTRACT_ADDRESS_PATH"
     load_env_and_store_to_file "VALIDATORS_NUMBER" "$VALIDATORS_NUMBER_PATH"
 
-    SUPPORTED_NETWORKS="mainnet holesky gnosis"
+    SUPPORTED_NETWORKS="mainnet hoodi gnosis"
     NETWORK=$(to_lower_case "$NETWORK")
     VAULT_CONTRACT_ADDRESS=$(to_lower_case "$VAULT_CONTRACT_ADDRESS")
 
